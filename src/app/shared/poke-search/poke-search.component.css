@@ -1,0 +1,23 @@
+
+
+form input {
+   position: absolute;
+   left: 80px;
+   width: 230px;
+   height: 30px;
+   box-sizing: border-box;
+   color: #2F3E77;
+   font-weight: 200;
+   background: #FFFFFF;
+border: 1px solid #F4F4F4;
+box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.15);
+border-radius: 5px 0px 0px 5px;
+
+}
+
+form img {
+   position: absolute;
+   top: 367px;
+   left: 299px;
+   width: 99px;
+}

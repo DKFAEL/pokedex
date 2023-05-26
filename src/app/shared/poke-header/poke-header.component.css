@@ -1,0 +1,70 @@
+
+header {
+  
+    padding-left: 80px;
+    background: linear-gradient(180deg, #EFF4FA 0%, rgba(239, 244, 250, 0) 102.84%);
+    
+}
+
+
+
+h1 {
+   font-weight: 700;
+   font-size: 2.8rem;
+   line-height: 3.8rem;
+   color: #2F3E77;
+}
+
+h1 span {
+    font-weight: 600;
+    color: #EA686D;
+}
+
+p {
+    color: #2F3E77;
+    
+    line-height: 30px;
+    font-size: 22px;
+}
+
+
+#img1 {
+    position: absolute;
+    
+    top: 20%;
+    left: 45%;
+
+}
+
+
+
+#pokemon1 {
+    position: absolute;
+    left: 11%;
+    bottom: 24%;
+}
+
+#img2{
+    position: absolute;
+    
+    left: 48%;
+    top: 45%;
+}
+
+#pokemon2 {
+    position: absolute;
+    right: 1px;
+    bottom: 45px;
+}
+
+#img3 {
+    position: absolute;
+    top: 10%;
+    left: 61%;
+}
+
+#pokemon3 {
+    position: absolute;
+    bottom: 47px;
+    right: 1px;
+}

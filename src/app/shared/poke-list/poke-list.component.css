@@ -1,0 +1,9 @@
+.title {
+    position: absolute;
+    top: 80%;
+    left: 4%;
+    color: #2F3E77;
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 30px;
+}
