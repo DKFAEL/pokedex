@@ -1,9 +1,133 @@
-.title {
+
+.container {
+    
     position: absolute;
     top: 80%;
     left: 4%;
+    
+
+}
+
+.title {
     color: #2F3E77;
     font-size: 25px;
     font-weight: 600;
     line-height: 30px;
+    margin-left: 10px;
+}
+
+.cards {
+    display: flex;
+    
+
+}
+
+
+.card {
+    width: 212px;
+    height: 275px;
+    background-color: #FBFDFF;
+    border-radius: 2px;
+    margin-top: 30px;
+    margin-left: 15px;
+    color: #233674;
+}
+
+.card img {
+    padding-left: 40px;
+}
+
+.descricao {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+
+
+.descricao p {
+    padding-top: 7px;
+    padding-left: 41px;
+    font-weight: 400;
+}
+
+.altura {
+    display: flex;
+    justify-content:space-between;
+    padding-top: 14px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-weight: 600;
+}
+
+.peso {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 10px;
+    padding-right: 17px;
+    font-weight: 600;
+    
+}
+
+
+.peso p {
+    position: relative;
+    top: -25px;
+}
+
+#seta-esquerda {
+    position: absolute;
+    top: 220px;
+    border-radius: 100%;
+    width: 32px;
+    height: 32px;
+    background-color: #EA686D;
+    border: none;
+}
+
+#seta-esquerda img {
+    width: 11px;
+    height: 19px;
+    margin-top: 3px;
+    margin-right: 3px;
+}
+
+#seta-direita {
+    position: absolute;
+    top: 220px;
+    left: 1118px;
+
+    border-radius: 100%;
+    width: 32px;
+    height: 32px;
+    background-color: #EA686D;
+    border: none;
+
+}
+
+#seta-direita img {
+    width: 11px;
+    height: 19px;
+    margin-top: 3px;
+    margin-left: 3px;
+}
+
+.pokedex{
+    padding-top: 40px;
+}
+
+.setas {
+    position: relative;
+    top: -354px;
+    left: -70px;
+    border-radius: 100%;
+    width: 32px;
+    height: 32px;
+    background-color: #EA686D;
+    border: none;
+    margin-right: 7px;
+}
+
+.setas img {
+    padding: 3px 5px;
 }
