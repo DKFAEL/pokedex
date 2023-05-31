@@ -1,7 +1,7 @@
 
 header {
   
-    padding-left: 80px;
+    padding-left: 6.5%;
    
     
 }
@@ -10,7 +10,7 @@ header {
 
 h1 {
    font-weight: 700;
-   font-size: 2.8rem;
+   font-size: 2.4rem;
    line-height: 3.8rem;
    color: #2F3E77;
 }
@@ -24,16 +24,30 @@ p {
     color: #2F3E77;
     
     line-height: 30px;
-    font-size: 22px;
+    font-size: 20px;
 }
 
 
 #img1 {
     position: absolute;
-    
-    top: 20%;
-    left: 45%;
+    top: 70%;
+    left: 40%;
+    border-radius: 10px;
 
+}
+
+#img2{
+    position: absolute;
+    left: 70%;
+    top: 88%;
+    border-radius: 10px;
+}
+
+#img3 {
+    position: absolute;
+    top: 75%;
+    left: 84.8%;
+    border-radius: 10px;
 }
 
 
@@ -44,12 +58,7 @@ p {
     bottom: 24%;
 }
 
-#img2{
-    position: absolute;
-    
-    left: 48%;
-    top: 45%;
-}
+
 
 #pokemon2 {
     position: absolute;
@@ -57,11 +66,7 @@ p {
     bottom: 45px;
 }
 
-#img3 {
-    position: absolute;
-    top: 10%;
-    left: 61%;
-}
+
 
 #pokemon3 {
     position: absolute;

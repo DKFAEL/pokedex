@@ -1,42 +1,68 @@
 
+a {
+    text-decoration: none;
+}
+
 .container {
     
     position: absolute;
     top: 80%;
-    left: 4%;
     
 
 }
 
-.title {
+
+
+
+.pokedex{
+    padding-top: 5%;
+}
+
+.pokedex .title {
+
     color: #2F3E77;
-    font-size: 25px;
+    font-size: 1.6rem;
     font-weight: 600;
     line-height: 30px;
-    margin-left: 10px;
+    margin-left: 6%;
+    margin-top: 10%;
 }
+
+
 
 .cards {
     display: flex;
-    
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 0px 50px;
 
 }
 
 
 .card {
-    width: 212px;
-    height: 275px;
+    width: 200px;
     background-color: #FBFDFF;
     border-radius: 2px;
     margin-top: 30px;
-    margin-left: 15px;
+    margin-left: 20px;
     color: #233674;
+    transition: transform 0.3s ease;
 }
 
 .card img {
-    padding-left: 40px;
+    padding-left: 2.5em;
+    width: 7.75em;
+    height: 7.625em;
+    
 }
 
+.card .card-link {
+    color: inherit;
+    text-decoration: none;
+    
+  }
+
+  
 .descricao {
     display: flex;
     justify-content: space-evenly;
@@ -54,17 +80,17 @@
 .altura {
     display: flex;
     justify-content:space-between;
-    padding-top: 14px;
-    padding-left: 10px;
-    padding-right: 10px;
+    padding-top: 1rem;
+    padding-left: 0.7rem;
+    padding-right: 0.7rem;
     font-weight: 600;
 }
 
 .peso {
     display: flex;
     justify-content: space-between;
-    padding-left: 10px;
-    padding-right: 17px;
+    padding-left: 0.5rem;
+    padding-right: 1rem;
     font-weight: 600;
     
 }
@@ -75,9 +101,12 @@
     top: -25px;
 }
 
-#seta-esquerda {
+
+
+.seta-esquerda {
     position: absolute;
-    top: 220px;
+    top: 88%;
+    left: 90%;
     border-radius: 100%;
     width: 32px;
     height: 32px;
@@ -85,49 +114,21 @@
     border: none;
 }
 
-#seta-esquerda img {
-    width: 11px;
-    height: 19px;
-    margin-top: 3px;
-    margin-right: 3px;
-}
-
-#seta-direita {
+.seta-direita {
     position: absolute;
-    top: 220px;
-    left: 1118px;
-
+    top: 88%;
+    left: 94%;
     border-radius: 100%;
     width: 32px;
     height: 32px;
     background-color: #EA686D;
     border: none;
-
-}
-
-#seta-direita img {
-    width: 11px;
-    height: 19px;
-    margin-top: 3px;
-    margin-left: 3px;
-}
-
-.pokedex{
-    padding-top: 40px;
-}
-
-.setas {
-    position: relative;
-    top: -354px;
-    left: -70px;
-    border-radius: 100%;
-    width: 32px;
-    height: 32px;
-    background-color: #EA686D;
-    border: none;
-    margin-right: 7px;
 }
 
 .setas img {
     padding: 3px 5px;
+}
+
+#btn {
+    margin-right: 10px;
 }

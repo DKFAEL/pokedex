@@ -1,0 +1,163 @@
+main {
+    padding-left: 80px;
+    color: #233674;
+}
+
+#name {
+    position: absolute;
+    top: 12%;
+    font-weight: 700;
+    font-size: 2rem;
+    text-align: center;
+    line-height: 48px;
+    
+}
+
+
+
+#tipo {
+    position: absolute;
+    top: 21%;
+    left: 40%;
+    font-size: 1.3rem;
+    
+    
+}
+
+#backgound{
+    background: #F7802A;
+    font-size: 1.5rem;
+    font-style: normal;
+    line-height: 22px;
+    font-weight: 400;
+    color: #FFFFFF;
+    border-radius: 2px;
+    
+    
+}
+
+
+#imgPokemon{
+    width: 35%;
+position: absolute;
+    top: 5%;
+    left: 60%;
+}
+
+.descricao{
+    color: #233674;
+
+}
+
+.descricao h3 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.4rem;
+    line-height: 30px;
+    
+}
+
+.informacoes h3 {
+    font-size: 1.4rem;
+    font-weight: 700;
+    font-style: normal;
+    line-height: 30px;
+}
+
+.informacoes p {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.1rem;
+    font-style: normal;
+}
+
+.informacoes span {
+    position: absolute;
+    left: 45%;
+    top: 55%;
+    font-style: normal;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.1rem;
+}
+
+.progress-bar {
+    width: 300px;
+    height: 20px;
+    background-color: #FBFDFF;    
+  }
+  
+  #hp {
+  position: absolute;
+  top: 72%;
+  left: 13%;
+
+  }
+
+  #defense{
+    position: absolute;
+    top: 79%;
+    left: 13%;
+
+  }
+
+  #speed{
+    position: absolute;
+    top: 86%;
+    left: 13%;
+  }
+
+  #attack {
+    position: absolute;
+    top:93%;
+    left: 13%;
+  }
+  
+  /* Estilos para a barra de progresso de HP */
+  progress[value].hp::-webkit-progress-value {
+    background-color: #C4F789;
+  }
+  
+  /* Estilos para a barra de progresso de Attack */
+  progress[value].attack::-webkit-progress-value {
+    background-color: #EA686D;
+  }
+  
+  /* Estilos para a barra de progresso de Defense */
+  progress[value].defense::-webkit-progress-value {
+    background-color: #F7802A;
+  }
+  
+  /* Estilos para a barra de progresso de Speed */
+  progress[value].speed::-webkit-progress-value {
+    background-color: #49D0B0;
+  }
+
+#close {
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 1.5rem;
+    position: absolute;
+    top: 4%;
+    left: 95%;
+cursor: pointer;
+    
+}
+
+#close:hover{
+    animation: pulse 1s infinite;
+}
+
+@keyframes pulse {
+    
+    0%{
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(1.2);
+      }
+      100% {
+        transform: scale(1);
+      }
+}
