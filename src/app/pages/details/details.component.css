@@ -1,157 +1,165 @@
-/* Estilos para a seção principal */
 main {
-  padding-left: 80px;
-  color: #233674;
+    padding-left: 80px;
+    color: #233674;
 }
 
-/* Estilos para o nome do Pokémon */
 #name {
-  position: absolute;
-  top: 12%;
-  font-weight: 700;
-  font-size: 2rem;
-  text-align: center;
-  line-height: 48px;
+    position: absolute;
+    top: 12%;
+    font-weight: 700;
+    font-size: 2rem;
+    text-align: center;
+    line-height: 48px;
+    
 }
 
-/* Estilos para o tipo do Pokémon */
+
+
 #tipo {
-  position: absolute;
-  top: 21%;
-  left: 40%;
-  font-size: 1.3rem;
+    position: absolute;
+    top: 21%;
+    left: 40%;
+    font-size: 1.3rem;
+    
+    
 }
 
-/* Estilos para o fundo */
-#backgound {
-  background: #F7802A;
-  font-size: 1.5rem;
-  font-style: normal;
-  line-height: 22px;
-  font-weight: 400;
-  color: #FFFFFF;
-  border-radius: 2px;
+#backgound{
+    background: #F7802A;
+    font-size: 1.5rem;
+    font-style: normal;
+    line-height: 22px;
+    font-weight: 400;
+    color: #FFFFFF;
+    border-radius: 2px;
+    
+    
 }
 
-/* Estilos para a imagem do Pokémon */
-#imgPokemon {
-  width: 35%;
-  position: absolute;
-  top: 5%;
-  left: 60%;
+
+#imgPokemon{
+    width: 35%;
+position: absolute;
+    top: 5%;
+    left: 60%;
 }
 
-/* Estilos para a descrição */
-.descricao {
-  color: #233674;
+.descricao{
+    color: #233674;
+
 }
 
 .descricao h3 {
-  font-style: normal;
-  font-weight: 700;
-  font-size: 1.4rem;
-  line-height: 30px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.4rem;
+    line-height: 30px;
+    
 }
 
-/* Estilos para as informações */
 .informacoes h3 {
-  font-size: 1.4rem;
-  font-weight: 700;
-  font-style: normal;
-  line-height: 30px;
+    font-size: 1.4rem;
+    font-weight: 700;
+    font-style: normal;
+    line-height: 30px;
 }
 
 .informacoes p {
-  font-style: normal;
-  font-weight: 600;
-  font-size: 1.1rem;
-  font-style: normal;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.1rem;
+    font-style: normal;
 }
 
 .informacoes span {
-  position: absolute;
-  left: 45%;
-  top: 55%;
-  font-style: normal;
-  font-style: normal;
-  font-weight: 600;
-  font-size: 1.1rem;
+    position: absolute;
+    left: 45%;
+    top: 55%;
+    font-style: normal;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.1rem;
 }
 
-/* Estilos para a barra de progresso */
 .progress-bar {
-  width: 300px;
-  height: 20px;
-  background-color: #FBFDFF;
-}
-
-/* Estilos para as estatísticas */
-#hp {
+    width: 300px;
+    height: 20px;
+    background-color: #FBFDFF;    
+  }
+  
+  #hp {
   position: absolute;
   top: 72%;
   left: 13%;
-}
 
-#defense {
-  position: absolute;
-  top: 79%;
-  left: 13%;
-}
+  }
 
-#speed {
-  position: absolute;
-  top: 86%;
-  left: 13%;
-}
+  #defense{
+    position: absolute;
+    top: 79%;
+    left: 13%;
 
-#attack {
-  position: absolute;
-  top:93%;
-  left: 13%;
-}
+  }
 
-/* Estilos para as barras de progresso das estatísticas */
-progress[value].hp::-webkit-progress-value {
-  background-color: #C4F789;
-}
+  #speed{
+    position: absolute;
+    top: 86%;
+    left: 13%;
+  }
 
-progress[value].attack::-webkit-progress-value {
-  background-color: #EA686D;
-}
+  #attack {
+    position: absolute;
+    top:93%;
+    left: 13%;
+  }
+  
+  /* Estilos para a barra de progresso de HP */
+  progress[value].hp::-webkit-progress-value {
+    background-color: #C4F789;
+  }
+  
+  /* Estilos para a barra de progresso de Attack */
+  progress[value].attack::-webkit-progress-value {
+    background-color: #EA686D;
+  }
+  
+  /* Estilos para a barra de progresso de Defense */
+  progress[value].defense::-webkit-progress-value {
+    background-color: #F7802A;
+  }
+  
+  /* Estilos para a barra de progresso de Speed */
+  progress[value].speed::-webkit-progress-value {
+    background-color: #49D0B0;
+  }
 
-progress[value].defense::-webkit-progress-value {
-  background-color: #F7802A;
-}
-
-progress[value].speed::-webkit-progress-value {
-  background-color: #49D0B0;
-}
-
-/* Estilos para o botão de fechar */
 #close {
-  text-decoration: none;
-  font-weight: 700;
-  font-size: 1.5rem;
-  position: absolute;
-  top: 4%;
-  left: 95%;
-  cursor: pointer;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 1.5rem;
+    position: absolute;
+    top: 4%;
+    left: 95%;
+cursor: pointer;
+    
 }
 
-#close:hover {
-  animation: pulse 1s infinite;
+#close:hover{
+    animation: pulse 1s infinite;
 }
 
 @keyframes pulse {
-  0% {
-      transform: scale(1);
-  }
-  50% {
-      transform: scale(1.2);
-  }
-  100% {
-    transform: scale(1);
-  }
+    
+    0%{
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(1.2);
+      }
+      100% {
+        transform: scale(1);
+      }
 }
 
 /* Responsividade - 768px */
@@ -159,167 +167,215 @@ progress[value].speed::-webkit-progress-value {
   main {
       padding-left: 20px;
   }
+
+  
+
   #name {
       font-size: 1.5rem;
       top: 13%;
   }
-  #idPokemon {
-      margin-bottom: 10px;
+
+  #idPokemon{
+    margin-bottom: 10px;
   }
   #tipo {
       top: 27%;
       font-size: 1rem;
   }
+
   #backgound {
       font-size: 1.2rem;
   }
+
   #imgPokemon {
       width: 40%;
       top: 1px;
       left: 50%;
   }
+
   .descricao h3 {
       font-size: 1.2rem;
       margin-top: 13%;
   }
+
   .informacoes h3 {
       font-size: 1.2rem;
   }
+
   .informacoes p {
       font-size: 1rem;
   }
+
   .informacoes span {
       font-size: 1rem;
       left: 40%;
   }
+
   .info-row {
       display: flex;
       flex-direction: column;
       align-items: center;
       margin-bottom: 10px;
   }
+
   .stats {
       display: flex;
       flex-direction: column;
       align-items: flex-start;
   }
+
   .informacoes span {
-      top: 77%;
+    top: 77%;
   }
+
   #hp {
-      top: 97.5%;
+    top: 97.5%;
   }
+
   #defense {
-      top: 108%;
+    top: 108%;
   }
+
   #speed {
-      top: 118%;
+    top: 118%;
   }
+
   #attack {
-      top: 128%;
+    top: 128%;
   }
 }
 
 /* Responsividade - 480px */
-@media screen and (max-width: 480px) {
+@media  screen and (max-width: 480px) {
   main {
       padding-left: 10px;
   }
+
   #logo {
-      margin-left: 30%;
-      width: 15%;
+    margin-left: 30%;
+    width: 15%;
   }
+
   #name {
       font-size: 1.2rem;
       top: 7%;
       left: 15%;
   }
-  #idPokemon {
-      margin-left: 13%;
+
+  #idPokemon{
+    margin-left: 13%;
   }
+
   #tipo {
       top: 20%;
       left: 15%;
       font-size: 0.9rem;
   }
+
   #imgPokemon {
       width: 244px;
       top: 27%;
       left: 20%;
   }
+
   .descricao h3 {
       font-size: 1rem;
       margin-top: 70%;
   }
-  .nomeHp {
-      position: absolute;
-      top: 121%;
+  .nomeHp{
+    position: absolute;
+    top: 121%;
   }
-  .nomeDf {
-      position: absolute;
-      top: 131%;
+
+  .nomeDf{
+    position: absolute;
+    top: 131%;
   }
-  .nomeSp {
-      position: absolute;
-      top: 140%;
+
+  .nomeSp{
+    position: absolute;
+    top: 140%;
   }
-  .nomeAt {
-      position: absolute;
-      top: 149%;
+
+  .nomeAt{
+    position: absolute;
+    top: 149%;
   }
+
   #hp {
-      top: 124%;
-      left: 20%;
+    top: 124%;
+    left: 20%;
   }
+
   #defense {
-      top: 134%;
-      left: 20%;
+    top: 134%;
+    left: 20%;
   }
+
   #speed {
-      top: 143%;
-      left: 20%;
+    top: 143%;
+    left: 20%;
   }
+
   #attack {
-      top: 152%;
-      left: 20%;
+    top: 152%;
+    left: 20%;
   }
-  .altura {
-      position: absolute;
-      top: 105%;
+
+  .altura{
+    position: absolute;
+    top: 105%;
   }
+
   .peso {
-      position: absolute;
-      top: 111%;
+    position: absolute;
+    top: 111%;
   }
+
   .informacoes h3 {
       font-size: 1rem;
   }
+
   .informacoes p {
       font-size: 0.9rem;
+      
   }
+
   .informacoes span {
-    font-size: 0.9rem;
-    left: 85%;
-    top: 105%;
-}
-.info-row {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-bottom: 8px;
-}
-.stats {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-}
-.nomeHabilidade {
+      font-size: 0.9rem;
+      left: 85%;
+      top: 105%;
+
+  }
+
+  .info-row {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-bottom: 8px;
+  }
+
+  .stats {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      
+  }
+
+  .nomeHabilidade {
     position: absolute;
+  }
+
+  
+
+  .stat-row {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 5px;
+  }
 }
-.stat-row {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-bottom: 5px;
-}
+
+@media screen and (m){
+  
 }
