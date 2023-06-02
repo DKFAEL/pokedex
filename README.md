@@ -33,7 +33,7 @@ Após concluir a etapa de configuração, você poderá executar o Pokedex usand
 Execute o contêiner Docker com o seguinte comando:
 
 Copy code
-docker run -p 8000:8000 pokedex
+docker run -p 8081:80 pokedex
 O comando acima iniciará o contêiner e mapeará a porta 8000 do contêiner para a porta 8000 do seu host local.
 
-Abra seu navegador da web e acesse http://localhost:8000 para visualizar a Pokedex.
+Abra seu navegador da web e acesse http://localhost:8081 para visualizar a Pokedex.
