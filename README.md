@@ -1,27 +1,39 @@
 # Pokedex
+Este repositório contém a aplicação Pokedex, um sistema que permite visualizar informações sobre diferentes espécies de Pokémon. A aplicação é executada em um contêiner Docker, proporcionando facilidade na instalação e execução em diferentes ambientes.
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.2.6.
+![poke](https://github.com/DKFAEL/pokedex/assets/113553773/43b37479-8d1e-424d-8673-fb92a7441efe)
 
-## Development server
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## Pré-requisitos
+Antes de executar a aplicação, verifique se você possui os seguintes pré-requisitos instalados em sua máquina:
 
-## Code scaffolding
+Docker: Para instalar o Docker, siga as instruções oficiais de acordo com o seu sistema operacional: Documentação do Docker
+# #Configuração
+Siga as etapas abaixo para configurar e executar o Pokedex em seu ambiente local:
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Clone este repositório em sua máquina:
 
-## Build
+bash
+Copy code
+git clone https://github.com/DKFAEL/pokedex.git
+Acesse o diretório do projeto:
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+bash
+Copy code
+cd pokedex
+Construa a imagem Docker executando o seguinte comando:
 
-## Running unit tests
+Copy code
+docker build -t pokedex .
+Esse comando criará uma imagem Docker chamada "pokedex" com base no arquivo Dockerfile fornecido.
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+Executando o Pokedex
+Após concluir a etapa de configuração, você poderá executar o Pokedex usando o Docker. Siga as etapas abaixo:
 
-## Running end-to-end tests
+Execute o contêiner Docker com o seguinte comando:
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+Copy code
+docker run -p 8081:80 pokedex
+O comando acima iniciará o contêiner e mapeará a porta 8000 do contêiner para a porta 8000 do seu host local.
 
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+Abra seu navegador da web e acesse http://localhost:8081 para visualizar a Pokedex.
