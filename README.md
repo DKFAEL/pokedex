@@ -1,7 +1,8 @@
 # Pokedex
 Este repositório contém a aplicação Pokedex, um sistema que permite visualizar informações sobre diferentes espécies de Pokémon. A aplicação é executada em um contêiner Docker, proporcionando facilidade na instalação e execução em diferentes ambientes.
 
-!![Descrição da imagem](./assets/pokeAplicacao.png)
+![poke](https://github.com/DKFAEL/pokedex/assets/113553773/43b37479-8d1e-424d-8673-fb92a7441efe)
+
 
 ## Pré-requisitos
 Antes de executar a aplicação, verifique se você possui os seguintes pré-requisitos instalados em sua máquina:
