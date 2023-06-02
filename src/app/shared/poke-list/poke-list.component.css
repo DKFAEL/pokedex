@@ -1,203 +1,198 @@
-
 a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 .container {
-    
-    position: absolute;
-    top: 80%;
-    
-
+  /* Posicionamento absoluto para centralizar verticalmente */
+  position: absolute;
+  top: 80%;
 }
 
-
-
-
 .pokedex{
-    padding-top: 5%;
+  padding-top: 5%;
 }
 
 .pokedex .title {
-
-    color: #2F3E77;
-    font-size: 1.6rem;
-    font-weight: 600;
-    line-height: 30px;
-    margin-left: 6%;
-    margin-top: 10%;
+  /* Estilo do título da pokedex */
+  color: #2F3E77;
+  font-size: 1.6rem;
+  font-weight: 600;
+  line-height: 30px;
+  margin-left: 6%;
+  margin-top: 10%;
 }
-
-
 
 .cards {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    padding: 0px 50px;
-
+  /* Layout de cards */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 0px 50px;
 }
 
-
 .card {
-    width: 200px;
-    background-color: #FBFDFF;
-    border-radius: 2px;
-    margin-top: 30px;
-    margin-left: 20px;
-    color: #233674;
-    transition: transform 0.3s ease;
+  /* Estilo de cada card */
+  width: 200px;
+  background-color: #FBFDFF;
+  border-radius: 2px;
+  margin-top: 30px;
+  margin-left: 20px;
+  color: #233674;
+  transition: transform 0.3s ease;
 }
 
 .card img {
-    padding-left: 2.5em;
-    width: 7.75em;
-    height: 7.625em;
-    
+  /* Estilo da imagem dentro do card */
+  padding-left: 2.5em;
+  width: 7.75em;
+  height: 7.625em;
 }
 
 .card .card-link {
-    color: inherit;
-    text-decoration: none;
-    
-  }
-
-  
-.descricao {
-    display: flex;
-    justify-content: space-evenly;
+  /* Estilo do link dentro do card */
+  color: inherit;
+  text-decoration: none;
 }
 
-
-
+.descricao {
+  /* Layout da descrição */
+  display: flex;
+  justify-content: space-evenly;
+}
 
 .descricao p {
-    padding-top: 7px;
-    padding-left: 41px;
-    font-weight: 400;
+  /* Estilo dos parágrafos da descrição */
+  padding-top: 7px;
+  padding-left: 41px;
+  font-weight: 400;
 }
 
 .altura {
-    display: flex;
-    justify-content:space-between;
-    padding-top: 1rem;
-    padding-left: 0.7rem;
-    padding-right: 0.7rem;
-    font-weight: 600;
+  /* Estilo do bloco de altura */
+  display: flex;
+  justify-content: space-between;
+  padding-top: 1rem;
+  padding-left: 0.7rem;
+  padding-right: 0.7rem;
+  font-weight: 600;
 }
 
 .peso {
-    display: flex;
-    justify-content: space-between;
-    padding-left: 0.5rem;
-    padding-right: 1rem;
-    font-weight: 600;
-    
+  /* Estilo do bloco de peso */
+  display: flex;
+  justify-content: space-between;
+  padding-left: 0.5rem;
+  padding-right: 1rem;
+  font-weight: 600;
 }
-
 
 .peso p {
-    position: relative;
-    top: -25px;
+  /* Estilo dos parágrafos de peso */
+  position: relative;
+  top: -25px;
 }
 
-
-
 .seta-esquerda {
-    position: absolute;
-    top: 90%;
-    left: 90%;
-    border-radius: 100%;
-    width: 32px;
-    height: 32px;
-    background-color: #EA686D;
-    border: none;
+  /* Estilo do botão de seta esquerda */
+  position: absolute;
+  top: 90%;
+  left: 90%;
+  border-radius: 100%;
+  width: 32px;
+  height: 32px;
+  background-color: #EA686D;
+  border: none;
 }
 
 .seta-direita {
-    position: absolute;
-    top: 90%;
-    left: 94%;
-    border-radius: 100%;
-    width: 32px;
-    height: 32px;
-    background-color: #EA686D;
-    border: none;
+  /* Estilo do botão de seta direita */
+  position: absolute;
+  top: 90%;
+  left: 94%;
+  border-radius: 100%;
+  width: 32px;
+  height: 32px;
+  background-color: #EA686D;
+  border: none;
 }
 
 .setas img {
-    padding: 3px 5px;
+  /* Estilo das imagens das setas */
+  padding: 3px 5px;
 }
 
 #btn {
-    margin-right: 10px;
+  /* Estilo do botão */
+  margin-right: 10px;
 }
 
-@media screen and (max-width:1024px){
-    .seta-direita {
-        top: 80%;
-    }
-
-    .seta-esquerda{
+@media screen and (max-width: 1024px) {
+  /* Ajustes para dispositivos com largura máxima de 1024px */
+  .seta-direita {
       top: 80%;
-    }
+  }
+
+  .seta-esquerda {
+      top: 80%;
+  }
 }
 
-/* Media Queries */
 @media screen and (max-width: 768px) {
-    .cards {
+  /* Ajustes para dispositivos com largura máxima de 768px */
+  .cards {
       justify-content: center;
-    }
-  
-    .card {
+  }
+
+  .card {
       margin-left: 0;
       margin-right: 20px;
-    }
-  
-    .seta-esquerda {
+  }
+
+  .seta-esquerda {
       top: 142%;
       left: 84%;
-    }
-  
-    .seta-direita {
+  }
+
+  .seta-direita {
       top: 142%;
       left: 90%;
-    }
   }
-  
-  @media screen and (max-width: 480px) {
+}
 
-    .pokedex .title {
+@media screen and (max-width: 480px) {
+  /* Ajustes para dispositivos com largura máxima de 480px */
+  .pokedex .title {
       margin-left: 38%;
-    
-    }
-    .cards {
+  }
+
+  .cards {
       padding: 0 20px;
-    }
-  
-    .card {
+  }
+
+  .card {
       width: 80%;
       margin: 20px 0;
-    }
-  
-    .seta-esquerda {
-      left: 80%;
-      top: 102%;
-    }
-  
-    .seta-direita {
-      left: 89%;
-      top: 102%;
-    }
   }
 
-  @media screen and (max-width:32px){
-    .seta-direita {
-        top: 10%;
-    }
+  .seta-esquerda {
+      left: 80%;
+      top: 102%;
+  }
 
-    .seta-esquerda{
-      top: 80%;
-    }
+  .seta-direita {
+      left: 89%;
+      top: 102%;
+  }
 }
-  
+
+@media screen and (max-width: 320px) {
+  /* Ajustes para dispositivos com largura máxima de 320px */
+  .seta-direita {
+      top: 10%;
+  }
+
+  .seta-esquerda {
+      top: 80%;
+  }
+}
+
