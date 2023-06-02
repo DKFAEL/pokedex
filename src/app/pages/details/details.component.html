@@ -1,10 +1,11 @@
 <main>
     <ng-template [ngIf]="isLoading">
-        <img src="assets/Logo-03.png" alt="">
+        <img id="logo" src="assets/Logo-03.png" alt="">
         <h1 id="name">{{pokemon[0].name}} </h1>
         <section>
-            <p>#{{pokemon[0].id}}
+            <p id="idPokemon" >#{{pokemon[0].id}}
             <p id="tipo"> Tipo: <span id="backgound"> {{pokemon[0].types[0].type.name}} </span></p>
+            <img id="imgPokemon" [src]="pokemon[0].sprites.other.home.front_default" [alt]="pokemon[0].name">
         </section>
         <section class="descricao">
             <h3>Descrição</h3>
@@ -13,32 +14,32 @@
         <section class="informacoes">
             <h3>Informações</h3>
 
-            <p>Altura:</p>
-            <p>Peso:</p>
+            <p class="altura" >Altura:</p>
+            <p class="peso">Peso:</p>
             <span>
                 <p>{{pokemon[0].height}}Cm</p>
                 <p>{{pokemon[0].weight}}Kg</p>
             </span>
             <div class="stats">
                 
-                    <p>HP </p>
+                    <p class="nomeHp" >HP </p>
                     <progress id="hp" class="progress-bar hp" [value]="pokemon[0].stats[0].base_stat" max="100"></progress>
                 
 
-                <p>Defense </p>
+                <p class="nomeDf">Defense </p>
                 <progress id="defense" class="progress-bar defense" [value]="pokemon[0].stats[2].base_stat" max="100"></progress>
 
-                <p>Speed </p>
+                <p class="nomeSp">Speed </p>
                 <progress id="speed" class="progress-bar speed" [value]="pokemon[0].stats[5].base_stat" max="100"></progress>
 
-                <p>Attack </p>
+                <p class="nomeAt">Attack </p>
                 <progress id="attack" class="progress-bar attack" [value]="pokemon[0].stats[1].base_stat" max="100"></progress>
 
             </div>
 
         </section>
 
-        <img id="imgPokemon" [src]="pokemon[0].sprites.other.home.front_default" [alt]="pokemon[0].name">
+        
 
         <a id="close" [routerLink]="['']">X</a>
 

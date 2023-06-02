@@ -105,7 +105,7 @@ a {
 
 .seta-esquerda {
     position: absolute;
-    top: 88%;
+    top: 90%;
     left: 90%;
     border-radius: 100%;
     width: 32px;
@@ -116,7 +116,7 @@ a {
 
 .seta-direita {
     position: absolute;
-    top: 88%;
+    top: 90%;
     left: 94%;
     border-radius: 100%;
     width: 32px;
@@ -132,3 +132,72 @@ a {
 #btn {
     margin-right: 10px;
 }
+
+@media screen and (max-width:1024px){
+    .seta-direita {
+        top: 80%;
+    }
+
+    .seta-esquerda{
+      top: 80%;
+    }
+}
+
+/* Media Queries */
+@media screen and (max-width: 768px) {
+    .cards {
+      justify-content: center;
+    }
+  
+    .card {
+      margin-left: 0;
+      margin-right: 20px;
+    }
+  
+    .seta-esquerda {
+      top: 142%;
+      left: 84%;
+    }
+  
+    .seta-direita {
+      top: 142%;
+      left: 90%;
+    }
+  }
+  
+  @media screen and (max-width: 480px) {
+
+    .pokedex .title {
+      margin-left: 38%;
+    
+    }
+    .cards {
+      padding: 0 20px;
+    }
+  
+    .card {
+      width: 80%;
+      margin: 20px 0;
+    }
+  
+    .seta-esquerda {
+      left: 80%;
+      top: 102%;
+    }
+  
+    .seta-direita {
+      left: 89%;
+      top: 102%;
+    }
+  }
+
+  @media screen and (max-width:32px){
+    .seta-direita {
+        top: 10%;
+    }
+
+    .seta-esquerda{
+      top: 80%;
+    }
+}
+  

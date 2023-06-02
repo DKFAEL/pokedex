@@ -73,3 +73,130 @@ p {
     bottom: 47px;
     right: 1px;
 }
+
+@media screen and (max-width: 1024px) {
+  #img1 {
+    left: 45%;
+  }
+
+  #img2{
+    left: 81%;
+  }
+
+  #img3{
+    left: 99%;
+  }
+}
+  
+
+
+/* Media Queries */
+@media screen and (max-width: 768px) {
+
+  #logo {
+    margin-left: 220px;
+    width: 15%;
+
+
+  }
+
+  #img1 {
+    top: 15%;
+    left: 20%;
+    width: 40%;
+  }
+
+  #img2 {
+    top: 90%;
+    left: 22%;
+    width: 40%;
+  }
+
+  #img3 {
+    top: 78%;
+    left: 43%;
+    width: 40%;
+  }
+
+  #pokemon1 {
+    left: 0;
+    bottom: 0;
+    top: 30px;
+    width: 50%;
+  }
+
+  #pokemon2 {
+    width: 50%;
+  }
+
+  #pokemon3 {
+    width: 50%;
+  }
+
+  h1 {
+    /* font-size: 35px; */
+    margin-top: 40%;
+    margin-left: 10%;
+  }
+
+  p {
+    margin-left: 10% ;
+  }
+
+}
+
+@media screen and (max-width: 480px) {
+
+  #logo {
+    margin-left: 80px;
+    width: 25%;
+
+
+  }
+
+  #img1 {
+    top: 14%;
+    left: 9%;
+    width: 45%;
+  }
+
+  #img2 {
+    top: 64%;
+    left: 10%;
+    width: 45%;
+  }
+
+  #img3 {
+    top: 58%;
+    left: 33%;
+    width: 45%;
+  }
+
+  #pokemon1 {
+    left: 0;
+    bottom: 0;
+    top: 30px;
+    width: 50%;
+  }
+
+  #pokemon2 {
+    width: 50%;
+  }
+
+  #pokemon3 {
+    width: 50%;
+  }
+
+  h1 {
+    font-size: 1.6rem;
+    line-height: 2.4rem;
+    margin-top: 170px;
+  }
+
+  p {
+    font-size: 16px;
+    
+  }
+} 
+
+  

@@ -10,9 +10,9 @@ form input {
    color: #2F3E77;
    font-weight: 200;
    background: #FFFFFF;
-border: 1px solid #F4F4F4;
-box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.15);
-border-radius: 5px 0px 0px 5px;
+  border: 1px solid #F4F4F4;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.15);
+  border-radius: 5px 0px 0px 5px;
 
 }
 
@@ -21,4 +21,35 @@ form img {
    top: 58.8%;
    left: 24%;
    width: 97px;
+}
+
+
+
+/* Media Queries */
+@media screen and (max-width: 768px) {
+  form input {
+    top: 630px;
+    left: 15.4%;
+    width: 50%;
+  }
+
+  form img {
+    top: 621px;
+    left: 64%;
+    width: 100px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  form input {
+    top: 83%;
+    width: 50%;
+  }
+  
+
+  form img {
+    top: 81.5%;
+    left: 62.7%;
+    width: 25%;
+  }
 }

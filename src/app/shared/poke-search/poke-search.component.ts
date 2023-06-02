@@ -9,7 +9,7 @@ export class PokeSearchComponent implements OnInit {
 
 
   @Output () 
-  public emmitSearch: EventEmitter<string> = new EventEmitter();
+  public emmitSearch: EventEmitter<string> = new EventEmitter<string>();
 
   constructor() {
 
@@ -19,8 +19,12 @@ export class PokeSearchComponent implements OnInit {
     
   }
 
-  public search (value: string) {
-    this.emmitSearch.emit(value);
+  public search(value: string) {
+    this.emmitSearch.emit(value.trim());
   }
+  
+  
+  
+  
 
 }
