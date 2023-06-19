@@ -38,7 +38,5 @@ export class DetailsComponent implements OnInit {
     );
   }
 
-  isNavigatorAvailable(): boolean {
-    return !!navigator.userAgent && !!navigator.appVersion && !!navigator.platform;
-  }
+  
 }
