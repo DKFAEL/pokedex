@@ -15,6 +15,8 @@ export class PokeListComponent  implements OnInit {
   public totalSections: number = 0;
   public cardsPerSection: number = 10;
 
+  
+
   constructor(
     private pokeApiService: PokeApiService
   ) { }
