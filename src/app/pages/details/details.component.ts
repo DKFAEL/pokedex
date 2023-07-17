@@ -33,7 +33,7 @@ export class DetailsComponent implements OnInit {
       res => {
         this.pokemon = res
         this.isLoading = true;
-        console.log(res)
+      
       }
     );
   }
